@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Mrinmoy/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "27.2.1",
+          "DocX": "2.2.0"
+        },
+        "runtime": {
+          "Mrinmoy.dll": {}
+        }
+      },
+      "CsvHelper/27.2.1": {
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "assemblyVersion": "27.0.0.0",
+            "fileVersion": "27.2.1.0"
+          }
+        }
+      },
+      "DocX/2.2.0": {
+        "runtime": {
+          "lib/net40/Xceed.Document.NET.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          },
+          "lib/net40/Xceed.Words.NET.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mrinmoy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/27.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uS5ix5hL9gL5taiAG//CScyJa8Fn1ZOh3FDhDvf4laboESFs84mCNropfp7PIt8xCkyQofljFpqu1B5UnSXjyA==",
+      "path": "csvhelper/27.2.1",
+      "hashPath": "csvhelper.27.2.1.nupkg.sha512"
+    },
+    "DocX/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fAhCroEpafJP++GM/cwIH8OrOeztI5iDXZU+BAGKLU16ps7bB1/C6a/cBfR6RWc+7lHTJj/IBjZ3/YnKkZbw1g==",
+      "path": "docx/2.2.0",
+      "hashPath": "docx.2.2.0.nupkg.sha512"
+    }
+  }
+}
